@@ -1,0 +1,321 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/icomoon.eot?es3l1');
+	src:url('../font/icomoon.eot?#iefixes3l1') format('embedded-opentype'),
+		url('../font/icomoon.ttf?es3l1') format('truetype'),
+		url('../font/icomoon.woff?es3l1') format('woff'),
+		url('../font/icomoon.svg?es3l1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+	content: "\e9bd";
+}
+.icon-crz:before {
+	content: "\e9da";
+}
+.icon-gp:before {
+	content: "\ea88";
+}
+.icon-fb:before {
+	content: "\ea8c";
+}
+.icon-tt:before {
+	content: "\ea91";
+}
+
+.dnone
+{
+	display: none;
+}
+
+html
+{
+	background-color: #FFF;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+h1,h2,p
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+header
+{
+	background-color: #FFF;
+	display: flex;
+	justify-content:space-between;
+	overflow: hidden;
+	padding: 1em;
+}
+
+h1
+{
+	align-items:center;
+	color: #929292;
+	display: flex;
+	font-size: 1em;
+	justify-content:center;
+	margin: 0px;
+	text-transform: uppercase;
+}
+
+main
+{
+
+}
+
+h2
+{
+	color: #929292;
+	font-size: 3em;
+	margin: 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+nav
+{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.icon-menu
+{
+	color: #2FC1C1;
+	font-size: 1.5em;
+}
+.navd
+{
+	font-size: 0px;
+}
+
+.navd a
+{
+	text-transform: uppercase;
+	padding: 2rem 1rem;
+	color: #9F9292;
+	font-size: 1rem;
+	margin: 0px;
+}
+	.navd a:hover
+	{
+		background-color: #2FC1C1;
+		color: #FFF;
+	}
+
+.trabajos,.contacto
+{
+	background-color: #F0F0F0;
+	padding: 1em;
+}
+	.trabajo
+	{
+		margin-top: 1em;
+	}
+
+	.trabajo img
+	{
+		width: 100%
+	}
+
+	.datos-trabajo
+	{
+		color: #FFF;
+		font-size: 0px;
+		margin-top: -4px;
+		display: flex;
+		justify-content:space-between;
+	}
+
+		.datos-trabajo .nombre-trabajo
+		{
+			background-color: #2FC1C1;
+			width: 100%;
+			display: flex;
+			justify-content:center;
+			align-items:center;
+		}
+			.datos-trabajo .nombre-trabajo> p
+			{
+				font-size: 1rem;
+				padding: .5em;
+				margin: 0;
+			}
+
+		.datos-trabajo a
+		{
+			background-color: #F97068;
+			color: #FFF;
+			font-size: 1rem;
+			padding: .5em 1em;
+			display: flex;
+			flex-direction:column;
+			justify-content:center;
+			align-items:center;
+		}
+			.datos-trabajo a p
+			{
+				margin: 0px;
+				margin-top: .3em;
+			}
+			.datos-trabajo a span
+			{
+				font-size: 1.5rem;
+			}
+.about
+{
+	background-color: #2FC1C1;
+	color: #FFF;
+	padding: 2em 1em;
+}
+	.about h2
+	{
+		color: #FFF;
+	}
+
+.redes a
+{
+	color: #FFF;
+	font-size: 2em;
+	padding: .3em 0em;
+	text-align: center;
+	display: block;
+}
+
+	.redes .tt
+	{
+		background-color: #00E4FF;
+	}
+
+	.redes .fb
+	{
+		background-color: #464F6E;
+	}
+
+	.redes .gp
+	{
+		background-color: #D81B5F;
+	}
+
+
+.contacto
+{
+	padding: 0 1em;
+	text-align: center;
+}
+	.contacto h2
+	{
+		margin: 1em 0em .5em 0em;
+	}
+
+	.contacto input
+	{
+		border: 0px;
+		margin-bottom: 1em;
+		padding: .5em 0em;
+	}
+
+	.contacto textarea
+	{
+		border: 0px;
+		margin-bottom: 1em;
+		width: 100%;
+	}
+
+	.contacto .botton
+	{
+		background-color: #464F6E;
+		border-radius: 5px;
+		color: #FFF;
+		padding: 1em 0em;
+		width: 100%;
+	}
+
+footer
+{
+	background-color: #2C2F42;
+	text-align: center;
+}
+	footer p
+	{
+		color: #FFF;
+		padding: 1em 0em;
+		margin: 0;
+	}
+
+@media screen and (min-width:660px) {
+
+	.dnone
+	{
+		display: block;
+	}
+
+	.icon-menu
+	{
+		display: none;
+	}
+
+	header
+	{
+		padding: 1.5em;
+	}
+
+	h1
+	{
+		font-size: 1.5em;
+	}
+
+	h2
+	{
+		text-align: left;
+	}
+
+	.trabajos,.about,.contacto
+	{
+		padding: 4em;
+	}
+	.about p
+	{
+		font-size: 1.3em;
+	}
+	form
+	{
+		text-align: right;
+	}
+	.contacto .botton
+	{
+		background-color: #464F6E;
+		border-radius: 5px;
+		color: #FFF;
+		padding: 1em 2em;
+		font-size: 1.3em;
+		width: auto;
+	}
+
+	footer
+	{
+		text-align: center;
+	}
+}
